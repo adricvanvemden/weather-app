@@ -1,4 +1,5 @@
 import { Data } from "../pages";
+
 export const Mock: Data = {
   lat: 52.3772,
   lon: 6.089,

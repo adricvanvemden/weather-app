@@ -61,7 +61,7 @@ export interface Hourly {
   wind_gust: number;
   weather: Weather2[];
   pop: number;
-  rain: Rain;
+  rain?: Rain;
 }
 
 export interface Temp {
@@ -105,7 +105,7 @@ export interface Daily {
   weather: Weather3[];
   clouds: number;
   pop: number;
-  rain: number;
+  rain?: number;
   uvi: number;
 }
 
