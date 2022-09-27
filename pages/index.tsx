@@ -109,7 +109,7 @@ export interface Daily {
   uvi: number;
 }
 
-export interface data {
+export interface Data {
   lat: number;
   lon: number;
   timezone: string;
@@ -126,7 +126,7 @@ const formatHour = (unix: number) => {
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [data, setData] = useState<data>(Mock);
+  const [data, setData] = useState<Data>(Mock);
 
   const handleChange = (event) => {
     setSearchQuery(event.target.value.toLowerCase());
